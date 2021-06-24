@@ -1,0 +1,94 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href='../node_modules/bootstrap/dist/css/bootstrap.css'>
+    <link rel="stylesheet" href='../node_modules/bootstrap/dist/css/mdb.css'>
+    <link rel="stylesheet" href='../node_modules/bootstrap/dist/css/style.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<nav class='navbar navbar-dark bg-dark mb-3'>
+    <a href='#' class='navbar-brand'>Math Table </a>
+</nav>
+<div class="containe">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header bg-warning text-white">
+                <h3>Multiplication Table</h3>
+                </div>
+                <div class="card-body ">
+                    <form>
+                    <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label>Enter a number</label>
+                            <input  id='rqe-number'type='number' class='form-control' placeholder='Your number' id='number'>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="form-group">
+                            <label for="multiplier" >select the Multiplier</label>
+                            <input type="range" class="form-range" id="multiplier" min="1" max="10" value="1">
+                        </div>
+                    </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt-3 ms-0 col-md-8 ps-0">
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-body bg-light">
+                <div class="row">
+                    <div class="col-md-2">
+                        <h1 class='display-2'>
+                            <span class="badge bg-primary" id='number'>1</span>
+                        </h1>
+                    </div>
+                    <div class="col-md-2">
+                        <h1>
+                            <i class="fa fa-times fa-2x text-primary"></i>
+                        </h1>
+                    </div>
+                    <div class="col-md-2">
+                        <h1 class='display-2'>
+                            <span class="badge bg-primary" id='multiple'>2</span>
+                        </h1>
+                    </div>
+                    <div class="col-md-2">
+                        <h1 class='display-2'>
+                            <i class="fa fa-equals fa-2x bg-primary"></i>
+                        </h1>
+                    </div>
+                    <div class="col-md-2">
+                        <h1 class='display-2'>
+                            <span class="badge bg-primary" id='result'>20</span>
+                        </h1>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="app.js"></script>
+    <script src='../node_modules/bootstrap/js/jquery.js'></script>
+    <script src='../node_modules/bootstrap/js/bootstrap.js'></script>
+    <script src='../node_modules/bootstrap/js/poper.js'></script>
+    <script src='../node_modules/bootstrap/js/mdb.js'></script>
+
+</body>
+</html>

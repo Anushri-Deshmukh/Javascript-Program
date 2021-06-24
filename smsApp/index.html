@@ -1,0 +1,50 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href='../node_modules/bootstrap/dist/css/bootstrap.css'>
+    <link rel="stylesheet" href='../node_modules/bootstrap/dist/css/mdb.css'>
+    <link rel="stylesheet" href='../node_modules/bootstrap/dist/css/style.css'>
+
+
+</head>
+<body>
+<nav class='navbar navbar-dark bg-dark mb-3'>
+    <a href='#' class='navbar-brand'>SMS App </a>
+</nav>
+<div class="containe">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header bg-warning text-white">
+                <h3>SMS App</h3>
+                </div>
+                <div class="card-body bg-secondary">
+                    <form>
+                        <div class="form-group">
+                            <textarea maxlength="100" id='text-area' rows='4' class='form-control' placeholder="Your text hear"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer">
+                    <h4>The Character Remaining : <span class="font-weight-bold text-primary" id='char-count'>0</span>/100</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="app.js"></script>
+    <script src='../node_modules/bootstrap/js/jquery.js'></script>
+    <script src='../node_modules/bootstrap/js/bootstrap.js'></script>
+    <script src='../node_modules/bootstrap/js/poper.js'></script>
+    <script src='../node_modules/bootstrap/js/mdb.js'></script>
+
+</body>
+</html>
